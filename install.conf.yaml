@@ -12,15 +12,8 @@
     - mkdir -p ~/.config
  
 - link:
-		~/.config/nvim/init.vim: neovim/init.vim
-		~/.config/nvim/plugins.vim: neovim/plugins.vim 
-		~/.config/nvim/colors: neovim/colors
-    ~/.config/nvim/syntax: neovim/syntax
-    ~/.config/nvim/sessions: neovim/sessions
-		~/.zsh: zsh/
+		~/.config/nvim/init.vim: nvim/init.vim
     ~/.zshrc: zshrc
 		/mnt/c/Users/Kyle/AppData/Roaming/alacritty/alacritty.yml: alacritty.yml
-		~/.tmux.conf: tmux/.tmux.conf
-		~/.gitconfig: gitconfig
 		~/.SpaceVim.d: spacevim	
 
