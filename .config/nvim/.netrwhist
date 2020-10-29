@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/kyle/.config/fish/conf.d'
+let g:netrw_dirhist_5='/home/kyle/repos/dailyutils/lib/dailyutils_web/templates/todos'
+let g:netrw_dirhist_4='/home/kyle/repos/dailyutils/lib/dailyutils_web/templates'
+let g:netrw_dirhist_3='/home/kyle/repos/dailyutils/lib/dailyutils_web'
+let g:netrw_dirhist_2='/home/kyle/repos/dailyutils/lib'
+let g:netrw_dirhist_1='/home/kyle/repos/dailyutils'
