@@ -1,1 +1,1 @@
-://github.com/tmuxinator/tmuxinator
+https://github.com/tmuxinator/tmuxinator
