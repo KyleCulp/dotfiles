@@ -1,12 +1,26 @@
 -  clean: ['~']
 
+
+- defaults:
+    link:
+      relink: true
+      create: true
+
+
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - mkdir -p ~/.config
  
 - link:
-		~/.config/nvim: nvim/ 
- 		~/.zsh: zsh/
+		~/.config/nvim/init.vim: neovim/init.vim
+		~/.config/nvim/plugins.vim: neovim/plugins.vim 
+		~/.config/nvim/colors: neovim/colors
+    ~/.config/nvim/syntax: neovim/syntax
+    ~/.config/nvim/sessions: neovim/sessions
+		~/.zsh: zsh/
     ~/.zshrc: zshrc
-
+		/mnt/c/Users/Kyle/AppData/Roaming/alacritty/alacritty.yml: alacritty.yml
+		~/.tmux.conf: tmux/.tmux.conf
+		~/.gitconfig: gitconfig
+		~/.SpaceVim.d: spacevim	
 
